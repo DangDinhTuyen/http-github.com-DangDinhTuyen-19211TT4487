@@ -1,0 +1,85 @@
+.header-align{
+    display: flex;
+    justify-content: space-between;
+}
+.home-navbar{
+    color: #fa4c4c !important;
+}
+.bg-to{
+    background: #1b8bff;
+}
+.dam{
+    font-weight: 500;
+}
+.shopnow{
+    background-color: white;
+    text-align: center;
+    padding: 8px 20px ;
+    
+}
+
+.Readnow{
+    background: #24a6fb ;
+    text-align: center;
+    padding: 8px 20px ;
+}
+.Spaces{
+    margin: 0.1rem;
+}
+.item{
+    background: #f8f9fa;
+    margin: 0 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    color: #fa4c4c;
+    font-size: 1.2rem;
+}
+.item1{
+    background-color:#fa4c4c ;
+}
+.cover-price{
+    text-align: center;
+}
+.New{
+    background-color: black;
+    color: white;
+    padding: 0.2rem 0.8rem;
+}
+.cover-start{
+    font-size: 0.8rem;
+}
+
+.asd{
+    display: flex;
+    justify-content: space-around;
+
+}
+.above{
+    background: #f2f2f2;
+}
+.down{
+    background: #f7f7f7;
+}
+.pos{
+    position: relative;
+}
+.icon-down{
+    position: absolute;
+    right: 0;
+    top: -1px;
+    padding: 0.5rem 0.5rem;
+    background-color: black;
+    color: white;
+}
+.pos-fix{
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.canh{
+    background-color: red !important ;
+}

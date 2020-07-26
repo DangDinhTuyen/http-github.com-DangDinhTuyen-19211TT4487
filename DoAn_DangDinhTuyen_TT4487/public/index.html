@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/Doanstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="container  ">
+            <div class="d-flex mt-3 mb-3 ">
+                <div class=" flex-grow-1 text-center ">
+                    <img class="align-header-size img-fluid " src="./images/log.png" alt="">
+                    <div class="bg-red"></div>
+                </div>
+                <div class="p-1  float-right ">
+                    <span data-toggle="tooltip" data-placement="bottom" title="Search!"><i
+                            class="fas fa-search ml-2 mr-2 "></i></span>
+                    <span data-toggle="tooltip" data-placement="bottom" title="Cart!"> <i
+                            class="fas ml-2 mr-2 fa-shopping-cart"></i></span>
+                    <span data-toggle="tooltip" data-placement="bottom" title="My Account"> <i
+                            class="far ml-2 mr-2 fa-user"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-8 ml-auto mr-auto ">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item mr-1 ml-1 ">
+                                <a class="nav-link" href="#">NEW IN</a>
+                            </li>
+                            <li class="nav-item mr-1 ml-1  dropdown">
+                                <a class="nav-link over-flow-nav1 " href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" data-toggle="tooltip"
+                                    data-placement="bottom" title="Click to Open the menu ">Women</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Dresses & Jumpsuits</a>
+                                    <a class="dropdown-item" href="#">Shirts & Blouses</a>
+                                    <a class="dropdown-item" href="#">Polo Shirts</a>
+                                    <a class="dropdown-item" href="#">T-Shirts & Sweatshirts</a>
+                                    <a class="dropdown-item" href="#">Sweaters</a>
+                                    <a class="dropdown-item" href="#">Blazers </a>
+                                    <a class="dropdown-item" href="#">Jackets, Coats & Vests </a>
+                                    <a class="dropdown-item" href="#">Pants </a>
+                                    <a class="dropdown-item" href="#">Jeans & Denim </a>
+                                    <a class="dropdown-item" href="#">Skirts </a>
+                                    <a class="dropdown-item" href="#">Shorts </a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-1 ml-1 ">
+                                <a class="nav-link" href="#">MEN</a>
+                            </li>
+                            <li class="nav-item mr-1 ml-1 ">
+                                <a class="nav-link" href="#">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item mr-1 ml-1 ">
+                                <a class="nav-link" href="#">CLEARENCE</a>
+                            </li>
+                            <li class="nav-item mr-1 ml-1  dropdown">
+                                <a class="nav-link over-flow-nav1 " href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" data-toggle="tooltip"
+                                    data-placement="bottom" title="Click to open the menu">BUY THEME!</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Create Shopify Account</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="row  ">
+                <div class="col-md-12 realative text-center  ">
+                    <img class="img-responsive w-100" src="./images/anhdau.png" alt="">
+                </div>
+            </div>
+        </div>
+        <h5 class="text-center mt-5 mb-5 "> Shop by Category </h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cover-img-product text-center    ">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow  " src="./images/product1.png" alt="">
+                            <h6 class="mt-4 mb-3 text-dark " style=" font-size: 1.2rem "> New In </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cover-img-product text-center    ">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow  " src="./images/product2.png" alt="">
+                            <h6 class="mt-4 mb-3 text-dark " style=" font-size: 1.2rem "> New In </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cover-img-product text-center    ">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow  " src="./images/product3.png" alt="">
+                            <h6 class="mt-4 mb-3 text-dark " style=" font-size: 1.2rem "> New In </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cover-img-product text-center    ">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow  " src="./images/product4.png" alt="">
+                            <h6 class="mt-4 mb-3 text-dark " style=" font-size: 1.2rem "> New In </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="" class="text-dark">
+            <h5 class="text-center   mt-3 mb-5 "> Featured Products </h5>
+        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="cover-product">
+                        <div class="hover-img">
+                            <a href="#">
+                                <img class="img-fluid relative" src="./images/product5.png" alt="">
+                            </a>
+                            <div class=" col-md-3 col-sm-3 hover-icon text-right">
+                                <p> <a href="#" class="text-dark" style="display: block;"> <i
+                                            class="fal fa-eye icon-product bg-icon-hover " data-toggle="tooltip"
+                                            data-placement="left" title="Quick View"></i> </a> </p>
+                                <p> <a href="#" class="text-dark" style="display: block;"> <i
+                                            class="far fa-heart icon-product bg-icon-hover " data-toggle="tooltip"
+                                            data-placement="left" title="You need to login"></i> </a> </p>
+                                <p> <a href="#" class="text-dark" style="display: block;"> <i
+                                            class="fal fa-balance-scale icon-product bg-icon-hover"
+                                            data-toggle="tooltip" data-placement="left" title="Add to Compare"></i> </a>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" style="display: block;" class="mt-2 mb-2 text-dark">
+                            Denim midi skirt
+                        </a>
+                        <h4 class="money mt-1 mb-2">$380.00</h4>
+                        <a href="" class="text-dark" style="text-decoration: none;"> <button type="button"
+                                class=" btn button-write"> ADD TO CART </button> </a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="cover-product">
+                        <div class="hover-img">
+                            <a href="#">
+                                <img class="img-fluid relative" src="./images/product6.png" alt="">
+                            </a>
+                            <div class=" col-md-3 col-sm-3 hover-icon text-right">
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-eye icon-product bg-icon-hover" data-toggle="tooltip"
+                                            data-placement="left" title="Quick View"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="far fa-heart icon-product bg-icon-hover " data-toggle="tooltip"
+                                            data-placement="left" title="You need to login"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-balance-scale icon-product bg-icon-hover"
+                                            data-toggle="tooltip" data-placement="left" title="Add to Compare"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" style="display: block;" class="mt-2 mb-2 text-dark">
+                            Denim midi skirt
+                        </a>
+                        <h4 class="money mt-1 mb-2">$380.00</h4>
+                        <a href="" class="text-dark" style="text-decoration: none;"><button type="button"
+                                class="btn button-write"> ADD TO CART </button></a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="cover-product">
+                        <div class="hover-img">
+                            <a href="#">
+                                <img class="img-fluid relative" src="./images/product7.png" alt="">
+                            </a>
+                            <div class=" col-md-3 col-sm-3  hover-icon text-right">
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-eye icon-product bg-icon-hover" data-toggle="tooltip"
+                                            data-placement="left" title="Quick View"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="far fa-heart icon-product bg-icon-hover " data-toggle="tooltip"
+                                            data-placement="left" title="You need to login"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-balance-scale icon-product bg-icon-hover"
+                                            data-toggle="tooltip" data-placement="left" title="Add to Compare"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" style="display: block;" class="mt-2 mb-2 text-dark">
+                            Denim midi skirt
+                        </a>
+                        <h4 class="money mt-1 mb-2">$380.00</h4>
+                        <a href="" class="text-dark" style="text-decoration: none;"><button type="button"
+                                class="btn button-write">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="cover-product">
+                        <div class="hover-img">
+                            <a href="#">
+                                <img class="img-fluid relative" src="./images/product8.png" alt="">
+                            </a>
+                            <div class=" col-md-3 col-sm-3 hover-icon text-right">
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-eye icon-product bg-icon-hover " data-toggle="tooltip"
+                                            data-placement="left" title="Quick View"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="far fa-heart icon-product bg-icon-hover" data-toggle="tooltip"
+                                            data-placement="left" title="You need to login"></i></a></p>
+                                <p> <a href="#" class="text-dark" style="display: block;"><i
+                                            class="fal fa-balance-scale icon-product bg-icon-hover"
+                                            data-toggle="tooltip" data-placement="left" title="Add to Compare"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" style="display: block;" class="mt-2 mb-2 text-dark">
+                            Denim midi skirt
+                        </a>
+                        <h4 class="money mt-1 mb-2 ">$380.00</h4>
+                        <a href="" class="text-dark" style="text-decoration: none;"><button type="button"
+                                class="btn button-write"> ADD TO CART </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="row mt-5 mb-2 ">
+                    <div class="col-md-6   ">
+                        <img class="img-fluid" src="./images/product9.png" alt="">
+                    </div>
+                    <div class="col-md-6 mt-5 flex-1">
+                        <p class="ml-5" style="font-size: 1.3rem;"> A great about us block helps builds trust between
+                            you and your
+                            customers. The more content you provide about you and
+                            your business, the more confident people will be when purchasing from your store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5 class="text-center mt-5 mb-5"> Shop by Category </h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cover-img-product-last text-center">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow  " src="./images/product10.png" alt="">
+                            <h6 class="mt-4"> Dresses & Jumpsuits </h6>
+                            <p class="text-dark mt-2 gach" style="font-size: 1.2rem">SHOP NOW!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cover-img-product-last text-center">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow" src="./images/product11.png" alt="">
+                            <h6 class="mt-4">Jumpsuits & Dresses</h6>
+                            <p class="text-dark mt-2 gach" style="font-size: 1.2rem">SHOP NOW!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cover-img-product-last text-center">
+                        <a href="" class="text-dark">
+                            <img class="img-fluid grow" src="./images/product12.png" alt="">
+                            <h6 class="mt-4"> Dresses </h6>
+                            <p class=" text-dark mt-2 gach" style="font-size: 1.2rem">SHOP NOW!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid mt-4" style="background-color: #f7f8fa;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-5 mb-5">
+                        <div class="cover-footer-content mr-3">
+                            <h5 class="text-dark">
+                                Categories
+                            </h5>
+                            <ul class="mt-3 mb-3" style="list-style: none; padding-left: 0px;">
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">New In</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Women</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Men</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;"
+                                        href="#">Accessories</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;"
+                                        href="#">Clearence</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-5 mb-5">
+                        <div class="cover-footer-content ml-3 mr-3">
+                            <h5 class="text-dark">
+                                Categories
+                            </h5>
+                            <ul class="mt-3 mb-3" style="list-style: none; padding-left: 0px;">
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">About
+                                        Us</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Services
+                                    </a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Contact
+                                        Us</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">FAQs
+                                    </a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Privacy
+                                        Policy</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Cookie
+                                        Policy</a>
+                                </li>
+                                <li class="mt-2 mb-2"> <a class="hover-last" style="color: #88888c;" href="#">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mb-5 ">
+                        <h5 class="text-dark">
+                            Categories
+                        </h5>
+                        <p style="color: #88888c;">Sign up for our e-mail and be the first who
+                            know our special offers! Furthermore,
+                            we will give a 15% discount on the next order.</p>
+                        <div class="cover-last-content-last d-flex">
+                            <input type="email" class="flex-grow-1"
+                                style="padding-left: 0.375rem; outline: none; color: #88888c ;"
+                                placeholder="Enter Your Email">
+                            <button class="btn btn-dark"
+                                style="height: 100%;border-radius:0px !important; outline: none;">JOIN US</button>
+                        </div>
+                    </div>
+                </div>
+                <p style="color: #88888c;" class="text-center hover-last"> 19211TT4487 - Đặng Đình Tuyến</p>
+            </div>
+        </div>
+        <div class="pointer" style="background: black;"><a href="#"><i class="fas fa-chevron-up icon-pointer "></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
